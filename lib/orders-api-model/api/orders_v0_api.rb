@@ -402,7 +402,7 @@ module AmzSpApi::OrdersApiModel
         fail ArgumentError, "Missing the required parameter 'marketplace_ids' when calling OrdersV0Api.get_orders"
       end
       # resource path
-      local_var_path = '/orders/v0/orders'
+      local_var_path = '/sellers/v1/marketplaceParticipations'
 
       # query parameters
       query_params = opts[:query_params] || {}
